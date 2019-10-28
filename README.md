@@ -9,10 +9,15 @@ placed inside the cardboard, we hope to create a game of sorts.  There are multi
 
 
 Current progress:
+
       * Program code for Arduino server & processing written
+      
       * Testing required for devices, processing code runs but has not been tested with any incoming data
       
 Schedule:
+
       * Finish testing by Friday, Nov 1st.
+      
       * Commit changes, begin prepping for presentation.
+      
       * Tweak as needed.
