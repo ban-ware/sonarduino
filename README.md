@@ -1,6 +1,6 @@
 # sonarduino
 Project for TN425
-
+![Circuit Diagram of Project](https://github.com/ban-ware/sonarduino/blob/master/Diagram.png)
 Loosely based on this https://create.arduino.cc/projecthub/faweiz/arduino-radar-69b8fe project.
 
 For this implementation, the focus is placed on the interactivity of the sonar device.  By attaching
