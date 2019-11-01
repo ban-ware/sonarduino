@@ -21,3 +21,10 @@ Schedule:
       * Commit changes, begin prepping for presentation.
       
       * Tweak as needed.
+      
+Faulty Equipment discovered 10/30/19.  New sensors & servo motor arriving 11/1/19.  From there testing is to be done.
+
+Codebase is complete as of 10/30/19.  Changes only need to be made in order to create a more convenient & efficient program.
+
+
+Changes made are primarily on the Arduino side, specifically to get our use case working.  We will be using the radar screen code from the mentioned project, with minor changes, as it fits what is needed and there is no point in reinventing the wheel.
