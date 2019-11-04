@@ -17,8 +17,8 @@ The general setup of the hardware is as follows:
           Pin 3: Echo //Ultrasonic Sensor Output
           Pin 9: Servo PWM Pin //Servo input
           5V power running both servo and sensor.
-          This can be run on a serial cable alone.  Ideal setup is with 9v battery pack powering everything, but availability is        
-          lacking.
+          This can be run on a serial cable alone.  Ideal setup is with 9v battery pack powering everything, 
+          but availability is lacking.
           This is the same setup as outlined on the diagram above.
           
 Current progress:
