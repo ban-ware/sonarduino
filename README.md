@@ -11,7 +11,16 @@ For this implementation, the focus is placed on the interactivity of the sonar d
 the ultrasonic sensor to a google cardboard setup, and streaming the output of the program to an android device
 placed inside the cardboard, we hope to create a game of sorts.  There are multiple ways to tackle this, and as the project develops, we will comment on the changes and considerations made for this use case.
 
+The general setup of the hardware is as follows:
 
+          Pin 2: Trigger //Ultrasonic Sensor input
+          Pin 3: Echo //Ultrasonic Sensor Output
+          Pin 9: Servo PWM Pin //Servo input
+          5V power running both servo and sensor.
+          This can be run on a serial cable alone.  Ideal setup is with 9v battery pack powering everything, but availability is        
+          lacking.
+          This is the same setup as outlined on the diagram above.
+          
 Current progress:
 
       * Program code for Arduino server & processing written
