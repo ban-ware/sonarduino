@@ -4,7 +4,7 @@ int SIDE_LENGTH = 1000, ANGLE_BOUNDS = 80, ANGLE_STEP = 2, HISTORY_SIZE = 10,
     POINTS_HISTORY_SIZE = 500, MAX_DISTANCE = 50;
 int angle, distance;
 
-color bgcolor = color(255,0,0);
+color bgcolor = color(0,0,0);
 //PImage bgimage = loadImage("test.png");
 
 int radius;
@@ -74,19 +74,19 @@ else if (angle<0 & angle >-80)
 
   fill(0, 300, 0);
   text("Degrees: "+Integer.toString(Degrees), 100, 460, 100, 50);   text("degree", 200, 460, 100, 50);      // use Integet.toString to convert numeric to string as text() only outputs strings
-  text("Subject Distance: "+Integer.toString(distance), 100, 480, 200, 30);  text("mm", 200, 490, 100, 50);       // text(string, x, y, width, height)
+  text("Subject Distance: "+Integer.toString(distance/10), 100, 480, 200, 30);  text("cm", 200, 490, 100, 50);       // text(string, x, y, width, height)
   text("Radar screen code at www.Faweiz.com/radar", 900, 480, 250, 50);
   
   text("0", 620, 500, 250, 50);
-  text("50 mm", 600, 420, 250, 50);
+  text("10 cm", 600, 420, 250, 50);
 
-  text("100 mm", 600, 320, 250, 50);
+  text("20 cm", 600, 320, 250, 50);
 
-  text("150 mm", 600, 220, 250, 50);
+  text("30 cm", 600, 220, 250, 50);
   
-  text("200 mm", 600, 120, 250, 50);
+  text("40 cm", 600, 120, 250, 50);
   
-  text("250 mm", 600, 040, 250, 50);
+  text("50 cm", 600, 040, 250, 50);
    
   noFill();
   rect(70,60,200,200);
